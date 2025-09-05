@@ -173,7 +173,6 @@ if st.session_state.tab_clicked:
                 """)
                 st.markdown("[Project Link](https://www.linkedin.com/posts/puli-rishitha_sdp3-jfsd-kluniversity-ugcPost-7102548170735325184-ZqTs?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADihrLYB7viNBC-ZcUijXzaplJGEKjukBMU)")
                 st.write("#")
-                st.write("")
                 st.subheader("Project Management System")
                 st.write("""
                 Developed a Project Management System using Django, Python, and MySQL, implementing back-end functionality for efficient data handling and managing databases to support project planning and lifecycle management, resulting in a user-focused and effective project management solution.            """)
