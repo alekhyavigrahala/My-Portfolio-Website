@@ -187,9 +187,6 @@ if st.session_state.tab_clicked:
                 st.markdown("[Project Link](https://github.com/alekhyavigrahala/Python-Projects/tree/main/Project-1%20%3A%20Verbal%20Quest)")
                 st.write("#")
                 st.write("")
-                st.write("")
-                st.write("")
-                st.write("")
                 st.subheader("Space and Aesthetic System")
                 st.write("""
                 Developed the Space and Aesthetic Management System as part of a research-driven project, conducting surveys, interviews, and fieldwork to analyze customer needs in interior design. Designed user personas, identified key insights, and proposed customer-centric solutions that balanced quality, budget, and creativity, emphasizing innovation and user-focused design.            """)
