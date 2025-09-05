@@ -151,7 +151,7 @@ if st.session_state.tab_clicked:
 
             projects = [
                 (
-                    image_task, use_container_width=True
+                    image_task,
                     "Task Management System",
                     """Developed a full-stack Task Management System (To-Do List application) using Spring Boot, Java, and MySQL, enabling users to create, update, and delete tasks. The project streamlined user interactions by integrating both front-end and back-end components, providing an efficient and seamless task management experience.""",
                     "https://www.linkedin.com/posts/puli-rishitha_sdp3-jfsd-kluniversity-ugcPost-7102548170735325184-ZqTs?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADihrLYB7viNBC-ZcUijXzaplJGEKjukBMU"
