@@ -292,25 +292,25 @@ if st.session_state.tab_clicked:
 
         experiences = [
             (
-                "Data Strategy & AI Applications",
+                "Data Analytics and Business Insights",
                 "Deloitte Australia - Virtual Experience Program",
                 "August 2025",
-                "Completed Deloitte's program focusing on data strategy, AI applications, and digital transformation. Applied knowledge to real-world business scenarios to enhance analytical skills.",
+                "Completed the job simulation, demonstrating skills in data analysis, visualization, and interpretation to solve business problems effectively.",
                 "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_aHgfioFxmJykuCJsa_1755997495116_completion_certificate.pdf"
 
             ),
             (
-                "Strategy & Business Analytics",
+                "Strategy Consulting & Business Analytics",
                 "Boston Consulting Group (BCG) - Virtual Experience Program",
                 "July 2023",
-                "Participated in BCG's program working on strategic problem-solving, market analysis, and business case studies. Developed analytical thinking and consulting skills.",
+                "Participated in BCG's virtual experience program and gained practical exposure to strategy consulting tasks, including problem-solving, data-driven decision making, and developing strategic recommendations for business scenarios.",
                 "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/BCG%20/ntTvo6ru6Tq3A2JPq_BCG_Y55o9NpxjpAxuznZ6_1690437731870_completion_certificate.pdf"
             ),
             (
                 "Data Analytics & Insights",
                 "Quantium - Virtual Experience Program",
                 "July 2023",
-                "Completed Quantium's program focusing on real-world data analysis, data visualization, and business insights. Gained hands-on experience in statistical analysis and problem-solving for data-driven decisions.",
+                "Completed Quantium's virtual experience program and acquired practical experience in analyzing data, creating reports, and deriving meaningful insights to solve real-world business problems.",
                 "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Quantium/NkaC7knWtjSbi6aYv_Quantium_Y55o9NpxjpAxuznZ6_1690433143669_completion_certificate.pdf"
             )
         ]
