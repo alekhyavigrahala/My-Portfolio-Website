@@ -151,7 +151,7 @@ if st.session_state.tab_clicked:
 
             projects = [
                 (
-                    image_task,
+                    image_task, use_container_width=True
                     "Task Management System",
                     """Developed a full-stack Task Management System (To-Do List application) using Spring Boot, Java, and MySQL, enabling users to create, update, and delete tasks. The project streamlined user interactions by integrating both front-end and back-end components, providing an efficient and seamless task management experience.""",
                     "https://www.linkedin.com/posts/puli-rishitha_sdp3-jfsd-kluniversity-ugcPost-7102548170735325184-ZqTs?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADihrLYB7viNBC-ZcUijXzaplJGEKjukBMU"
@@ -179,7 +179,7 @@ if st.session_state.tab_clicked:
             for img, title, desc, link in projects:
                 col1, col2 = st.columns((1, 2))
                 with col1:
-                    st.image(img, use_column_width=True)
+                    st.image(img, use_container_width=True)
                 with col2:
                     st.subheader(title)
                     st.write(desc)
