@@ -148,47 +148,43 @@ if st.session_state.tab_clicked:
             st.write("")
             st.title("My Projects")
             st.write("")
-            st.write("")
-            st.write("")
-            col5, col10, col6 = st.columns((1,0.1,2))
-            with col5:
-                st.image(image_task)
-                st.write("")
-                st.write("")
-                st.write("")
-                st.image(image_project)
-                st.write("")
-                st.write("")
-                st.write("")
-                st.image(image_verbal)
-                st.write("")
-                st.write("")
-                st.write("")
-                st.image(image_space)
-            with col6:
-                st.write()
-                st.subheader("Task Management System")
-                st.write("""
-                Developed a full-stack Task Management System (To-Do List application) using Spring Boot, Java, and MySQL, enabling users to create, update, and delete tasks. The project streamlined user interactions by integrating both front-end and back-end components, providing an efficient and seamless task management experience.
-                """)
-                st.markdown("[Project Link](https://www.linkedin.com/posts/puli-rishitha_sdp3-jfsd-kluniversity-ugcPost-7102548170735325184-ZqTs?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADihrLYB7viNBC-ZcUijXzaplJGEKjukBMU)")
-                st.write("#")
-                st.subheader("Project Management System")
-                st.write("""
-                Developed a Project Management System using Django, Python, and MySQL, implementing back-end functionality for efficient data handling and managing databases to support project planning and lifecycle management, resulting in a user-focused and effective project management solution.            """)
-                st.markdown("[Project Link](https://www.linkedin.com/pulse/project-management-system-pjm-team51-yakshitha-kallam)")
-                st.write("#")
-                st.subheader("Verbal Quest")
-                st.write("""
-                Developed Verbal Quest, a Python-based word-guessing game where players try to discover a hidden 5-letter word using logic-based clues. Implemented game logic, feedback for guesses, and scoring to create an engaging and interactive experience, showcasing skills in Python programming and problem-solving.                """)
-                st.markdown("[Project Link](https://github.com/alekhyavigrahala/Python-Projects/tree/main/Project-1%20%3A%20Verbal%20Quest)")
-                st.write("#")
-                st.write("")
-                st.write("")
-                st.subheader("Space and Aesthetic System")
-                st.write("""
-                Developed the Space and Aesthetic Management System as part of a research-driven project, conducting surveys, interviews, and fieldwork to analyze customer needs in interior design. Designed user personas, identified key insights, and proposed customer-centric solutions that balanced quality, budget, and creativity, emphasizing innovation and user-focused design.            """)
-                st.markdown("[Project Link](https://www.linkedin.com/pulse/space-aesthetic-management-sdp-1-team-78-yakshitha-kallam)")
+
+            projects = [
+                (
+                    image_task,
+                    "Task Management System",
+                    """Developed a full-stack Task Management System (To-Do List application) using Spring Boot, Java, and MySQL, enabling users to create, update, and delete tasks. The project streamlined user interactions by integrating both front-end and back-end components, providing an efficient and seamless task management experience.""",
+                    "https://www.linkedin.com/posts/puli-rishitha_sdp3-jfsd-kluniversity-ugcPost-7102548170735325184-ZqTs?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADihrLYB7viNBC-ZcUijXzaplJGEKjukBMU"
+                ),
+                (
+                    image_project,
+                    "Project Management System",
+                    """Developed a Project Management System using Django, Python, and MySQL, implementing back-end functionality for efficient data handling and managing databases to support project planning and lifecycle management, resulting in a user-focused and effective project management solution.""",
+                    "https://www.linkedin.com/pulse/project-management-system-pjm-team51-yakshitha-kallam"
+                ),
+                (
+                    image_verbal,
+                    "Verbal Quest",
+                    """Developed Verbal Quest, a Python-based word-guessing game where players try to discover a hidden 5-letter word using logic-based clues. Implemented game logic, feedback for guesses, and scoring to create an engaging and interactive experience, showcasing skills in Python programming and problem-solving.""",
+                    "https://github.com/alekhyavigrahala/Python-Projects/tree/main/Project-1%20%3A%20Verbal%20Quest"
+                ),
+                (
+                    image_space,
+                    "Space and Aesthetic System",
+                    """Developed the Space and Aesthetic Management System as part of a research-driven project, conducting surveys, interviews, and fieldwork to analyze customer needs in interior design. Designed user personas, identified key insights, and proposed customer-centric solutions that balanced quality, budget, and creativity, emphasizing innovation and user-focused design.""",
+                    "https://www.linkedin.com/pulse/space-aesthetic-management-sdp-1-team-78-yakshitha-kallam"
+                )
+            ]
+
+            for img, title, desc, link in projects:
+                col1, col2 = st.columns((1, 2))
+                with col1:
+                    st.image(img, use_column_width=True)
+                with col2:
+                    st.subheader(title)
+                    st.write(desc)
+                    st.markdown(f"[Project Link]({link})")
+                st.write("---")  # divider between projects
 
     elif st.session_state.selected_tab == "Contact":
         st.write("")
