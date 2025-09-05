@@ -25,7 +25,6 @@ image_srisarada = Image.open("Portfolio Attachments/sri sarada logo.png")
 image_srichaitanya = Image.open("Portfolio Attachments/sri chaitanya logo.png")
 
 
-st.write("##")
 st.subheader(":pray: Welcome to")
 st.title("Alekhya's Portfolio Website")
 st.write("""
