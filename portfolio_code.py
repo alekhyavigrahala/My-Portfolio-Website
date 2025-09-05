@@ -118,6 +118,7 @@ if st.session_state.tab_clicked:
             st.subheader("Higher Secondary Education - MPC")
             st.markdown("<p style='font-size:21px;'><b>Sri Sarada Junior College</b>, Vijayawada</p>", unsafe_allow_html=True)
             st.markdown("""  
+            **Stream:** &nbsp;MPC (Maths Physics Chemistry)
             **Board:** &nbsp;Board of Intermediate Education, Andhra Pradesh  
             **Year of Completion:** &nbsp;May 2021  
             **Grade:** &nbsp;75%  
