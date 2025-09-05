@@ -25,7 +25,9 @@ image_srisarada = Image.open("Portfolio Attachments/sri sarada logo.png")
 image_srichaitanya = Image.open("Portfolio Attachments/sri chaitanya logo.png")
 
 
-st.subheader(":pray: Welcome to")
+st.subheader(":wave: Hello")
+st.subheader("Welcome to")
+
 st.title("Alekhya's Portfolio Website")
 st.write("""
 This portfolio provides a comprehensive view of my academic background, technical skills, professional experiences, and projects. 
