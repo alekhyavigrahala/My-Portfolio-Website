@@ -68,7 +68,7 @@ if st.session_state.tab_clicked:
                 st.header("Hello, I'm Alekhya Vigrahala")
                 st.write("")
                 st.markdown("<p style='font-size:18px;'>A Computer Science undergraduate from K L University with a strong foundation in programming, software development, and data analytics. My technical journey includes building full-stack applications with Python, Java, Spring Boot, Django, React, and MySQL, and developing data visualization solutions using Tableau and Power BI. I gained practical exposure through virtual internship programs with Deloitte, Quantium, and BCG, where I worked on analytics and consulting tasks, and I hold certifications in AWS, Oracle Cloud, Red Hat, and Salesforce AI. Along with my technical skills, I bring strengths in problem-solving, testing, teamwork, and adaptability, and I aspire to contribute to impactful software and data-driven solutions in the industry..</p>", unsafe_allow_html=True)
-            with open("Portfolio Attachments\ALEKHYAVIGRAHALA_RESUME.pdf", "rb") as pdf_file:
+            with open("Portfolio Attachments/ALEKHYAVIGRAHALA_RESUME.pdf", "rb") as pdf_file:
                 PDFbyte = pdf_file.read()
 
             st.download_button(
