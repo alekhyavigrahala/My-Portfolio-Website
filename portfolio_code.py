@@ -34,7 +34,7 @@ It includes details of my education, internships, certifications, and hands-on w
 and problem-solving. The goal of this portfolio is to showcase my journey as a Computer Science undergraduate and demonstrate 
 my ability to apply knowledge to real-world challenges.
 """)
-st.write("[LinkedIn](https://www.linkedin.com/in/alekhya-vigrahala/) &nbsp; | &nbsp; [GitHub](https://github.com/alekhyavigrahala) &nbsp; | &nbsp; [HackerRank](https://www.hackerrank.com/profile/alekhyavigrahala)")
+st.write("[LinkedIn](https://www.linkedin.com/in/alekhya-vigrahala/) &nbsp; | &nbsp; [GitHub](https://github.com/alekhyavigrahala) &nbsp; | &nbsp; [HackerRank](https://www.hackerrank.com/profile/KLU_2100030599)")
 st.write('---')
 
 # Initialize a session_state variable to track if a tab has been clicked
