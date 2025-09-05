@@ -15,14 +15,14 @@ def load_lottieurl(url):
 
 lottie_coder = load_lottieurl("https://lottie.host/321820b2-d292-42f5-b514-49ca6959cd83/keTD5NYFqz.json")
 lottie_contact = load_lottieurl("https://lottie.host/6b83d313-9187-448f-8419-1f0f725b80f9/HnWuic28EA.json")
-image_task = Image.open("Portfolio Attachments\Task Management System.jpg")
-image_project = Image.open("Portfolio Attachments\Project Management System.jpg")
-image_verbal = Image.open("Portfolio Attachments\Verbal Quest.png")
-image_space = Image.open("Portfolio Attachments\space and aesthetic system.png")
-image_profile = Image.open("Portfolio Attachments\VigrahalaAlekhya Photo.jpeg")
-image_klu = Image.open("Portfolio Attachments\KLU logo.png")
-image_srisarada = Image.open("Portfolio Attachments\sri sarada logo.png")
-image_srichaitanya = Image.open("Portfolio Attachments\sri chaitanya logo.png")
+image_task = Image.open("Portfolio Attachments/Task Management System.jpg")
+image_project = Image.open("Portfolio Attachments/Project Management System.jpg")
+image_verbal = Image.open("Portfolio Attachments/Verbal Quest.png")
+image_space = Image.open("Portfolio Attachments/space and aesthetic system.png")
+image_profile = Image.open("Portfolio Attachments/VigrahalaAlekhya Photo.jpeg")
+image_klu = Image.open("Portfolio Attachments/KLU logo.png")
+image_srisarada = Image.open("Portfolio Attachments/sri sarada logo.png")
+image_srichaitanya = Image.open("Portfolio Attachments/sri chaitanya logo.png")
 
 
 st.write("##")
@@ -366,27 +366,27 @@ if st.session_state.tab_clicked:
         certifications = [
             ("https://1000logos.net/wp-content/uploads/2020/09/Red-Hat-Logo-2019.png",
             "Red Hat Certified Enterprise Application Developer","Red Hat","29-12-2023",
-            "Portfolio Attachments\Red Hat Certified Enterprise Application Developer.pdf"),
+            "Portfolio Attachments/Red Hat Certified Enterprise Application Developer.pdf"),
             
             ("https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
             "AWS Certified Cloud Practitioner","Amazon Web Services","28-11-2023",
-            "Portfolio Attachments\AWS Certified Cloud Practitioner.pdf"),
+            "Portfolio Attachments/AWS Certified Cloud Practitioner.pdf"),
             
             ("https://logos-world.net/wp-content/uploads/2020/09/Oracle-Logo.png",
             "Oracle Cloud Infrastructure 2023 Certified Architect Associate","Oracle","28-08-2023",
-            "Portfolio Attachments\Oracle Cloud Infrastructure 2023 Certified Architect Associate.pdf"),
+            "Portfolio Attachments/Oracle Cloud Infrastructure 2023 Certified Architect Associate.pdf"),
             
             ("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Salesforce.com_logo.svg/1024px-Salesforce.com_logo.svg.png",
             "Salesforce Certified AI Associate","Salesforce","24-10-2024",
-            "Portfolio Attachments\Salesforce Certified AI Associate.pdf"),
+            "Portfolio Attachments/Salesforce Certified AI Associate.pdf"),
             
             ("https://images.squarespace-cdn.com/content/v1/5bec669f9f877016e7212b2d/6fa34e92-787f-46dd-b69b-afbdd86350ce/Simplilearn-logo300x100PNG+%281%29.png",
             "Power BI Essentials and Data Visualization","Simplilearn","05-08-2025",
-            "Portfolio Attachments\PowerBI_CourseCompletion_Certificate.pdf"),
+            "Portfolio Attachments/PowerBI_CourseCompletion_Certificate.pdf"),
             
             ("https://internet2.edu/wp-content/uploads/2021/04/s-palo-alto-gallery.png",
             "Palo Alto Networks Certified Cybersecurity Fundamentals Professional","Palo Alto Networks","25-03-2025",
-            "Portfolio Attachments\Palo Alto Networks Certified Cybersecurity Fundamentals Professional.pdf")
+            "Portfolio Attachments/Palo Alto Networks Certified Cybersecurity Fundamentals Professional.pdf")
         ]
 
         st.markdown("""
