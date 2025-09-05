@@ -179,8 +179,6 @@ if st.session_state.tab_clicked:
                 Developed a Project Management System using Django, Python, and MySQL, implementing back-end functionality for efficient data handling and managing databases to support project planning and lifecycle management, resulting in a user-focused and effective project management solution.            """)
                 st.markdown("[Project Link](https://www.linkedin.com/pulse/project-management-system-pjm-team51-yakshitha-kallam)")
                 st.write("#")
-                st.write("")
-                st.write("")
                 st.subheader("Verbal Quest")
                 st.write("""
                 Developed Verbal Quest, a Python-based word-guessing game where players try to discover a hidden 5-letter word using logic-based clues. Implemented game logic, feedback for guesses, and scoring to create an engaging and interactive experience, showcasing skills in Python programming and problem-solving.                """)
